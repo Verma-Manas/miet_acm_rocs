@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button Styles */
+.buttonn, .nav-button, .homepage-button {
+  background-color: rgba(110, 150, 158, 0.158);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: color 0.5s, transform 0.5s;
+}
+
+.buttonn:hover, .nav-button:hover, .homepage-button:hover {
+  color: #ffffff;
+  transform: scale(1.15);
+}
+
+.buttonn:active, .nav-button:active, .homepage-button:active {
+  background-color: rgba(255, 210, 210, 0.605);
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(0, 23, 85);
+  padding: 20px;
+  position: fixed; /* Ensures the navbar is always visible */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the viewport */
+  z-index: 1000; /* Places the navbar above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds subtle depth */
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+/* For smooth scrolling sections */
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling to sections */
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Homepage Styles */
+.homepage {
+  background-color: rgb(15, 0, 125);
+  padding: 2% 3%;
+  text-align: center;
+}
+
+.homepage-content {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homepage-text {
+  color: white;
+  font-size: 1.5rem;
+  flex: 1;
+  max-width: 90%;
+  padding-inline: 100px;
+}
+
+.homepage-text h1 {
+  font-size: 3rem;
+}
+
+.homepage-text p {
+  font-size: 1.5rem;
+}
+
+.homepage-image {
+  width: 35%;
+  margin-left: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.homepage_structure{
+  justify-content: center;
+  text-align: left;
+}
+
+.homepage_text_structure{
+  background-color:(0,0,0,0.073) ;
+  padding-inline: 100px;
+  max-width: 100%;
+}
+
+.homepage_text{
+  font-size: 1.15rem;
+  padding: 10px;
+}
+
+/* Registration Section */
+.registration_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(15, 0, 125); /* Set grey background */
+  color: white;
+}
+
+.content_container {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  color: white;
+}
+
+.registration_section {
+  max-width: 50%;
+  padding-left: 100px;
+  color: white;
+}
+
+.register-button {
+  color: rgb(15, 0, 125);
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.5s, transform 0.3s;
+}
+
+.register-button:hover {
+  color: #ffffff;
+  background-color: rgb(10, 0, 85); /* Hover background color */
+  transform: scale(1.15); /* Scale up the button on hover */
+}
+
+.register-button:active {
+  background-color: rgba(255, 210, 210, 0.605); /* Active background color */
+}
+
+.image_section {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration_image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Schedule Section */
+.schedule-main {
+
+  padding: 2rem;
+}
+
+.schedule-heading {
+  font-size: 2.5rem;
+  color: rgb(15, 0, 125);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 10px;
+}
+
+.grid-column {
+  display: grid;
+  grid-template-rows: repeat(12, auto);
+  gap: 10px;
+}
+
+.left-column {
+  max-width: 200px;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(15, 0, 125);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Directions Section */
+.directions {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.directions iframe {
+  border: 2px solid #ccc;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  margin: 20px auto;
+}
+
+.directions h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Organizer Section */
+.organ-container {
+  text-align: center;
+}
+
+.organ-heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgb(15, 0, 125);
+}
+
+.organ-images {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 30px;
+}
+
+.organ img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Speaker Section */
+.speaker {
+  padding: 20px;
+  background-color: rgb(15, 0, 125);
+}
+
+.speaker h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color:white;
+}
+.speaker p {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  font-size: large;
+  font-weight: 400;
+}
+
+.speaker-item {
+  font-size: large;
+  font-weight: 400;
+  text-align: center;
+}
+
+.speaker-item img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* Additional Spacing */
+.schd {
+  padding: 20px;
+}
