@@ -14,7 +14,7 @@ const WorkshopDetails = () => {
         <p className='homepage_text'>
           <strong>Important Details:</strong>
         </p>
-        <p className='homepage_text'>Registration Deadline: 24th November 2024</p>
+        <p className='homepage_text'>Registration Deadline: 28th November 2024</p>
         <p className='homepage_text'>Venue: Auditorium, MIET Jammu</p>
         <p className='homepage_text'>Lunch and Snacks: Provided to all participants</p>
         <p className='homepage_text'>Certificate: Participants will receive a certificate at the end of the session</p>
