@@ -18,7 +18,7 @@ const NavBar = () => {
                         HOME
                     </button>
                     <button className="nav-button" onClick={() => scrollToSection('location-embed')}>
-                        LOCATION
+                        VENUE
                     </button>
                     <button className="nav-button" onClick={() => scrollToSection('register')}>
                         REGISTER
