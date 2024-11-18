@@ -13,12 +13,12 @@ const WorkshopRegistration = () => {
           </p>
           <br />
           <a href="https://www.google.com/search?q=google&rlz=1C1CHBF_en__1051__1051&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIYCAEQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMgwIAhAjGCcYgAQYigUyDAgDECMYJxiABBiKBTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEIMTQ1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" style={{ textDecoration: "none" }}>
-  <button className="register-button">
-    Register Now
-  </button>
-</a>
-          <p style={{ fontSize: '1.05rem', marginTop: '1rem' }}>» Last Day to apply is 24th November 2024.</p>
-          <p style={{ fontSize: '1.05rem' }}>» Registration fee is Rs. 250/- + GST</p>
+            <button className="register-button">
+              Register Now
+            </button>
+          </a>
+          <p style={{ fontSize: '1.05rem', marginTop: '1rem' }}>» Last Day to apply is 28th November 2024.</p>
+          <p style={{ fontSize: '1.05rem' }}>» Registration fee is Rs. 200/- + GST</p>
         </div>
 
         <div className="image_section">
@@ -29,7 +29,13 @@ const WorkshopRegistration = () => {
           />
         </div>
       </div>
-      <br /><br /> {/* Adds 2 line breaks on bottom */}
+      <br/><br/>
+      <div style={{
+        width: '100%',
+        height: '5px',
+        backgroundColor: 'white',
+        marginTop: '1rem'
+      }}></div>
     </main>
   );
 };
