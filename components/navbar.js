@@ -17,8 +17,8 @@ const NavBar = () => {
                     <button className="nav-button" onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
-                    <button className="nav-button" onClick={() => scrollToSection('schedule')}>
-                        SCHEDULE
+                    <button className="nav-button" onClick={() => scrollToSection('location-embed')}>
+                        LOCATION
                     </button>
                     <button className="nav-button" onClick={() => scrollToSection('register')}>
                         REGISTER
@@ -27,14 +27,8 @@ const NavBar = () => {
                         SPEAKERS
                     </button>
                     <button className="nav-button" onClick={() => scrollToSection('organiser')}>
-                        ORGANISER
+                        ORGANISERS
                     </button>
-                    {/* <button className="nav-button" onClick={() => scrollToSection('previous-editions')}>
-                        PREVIOUS EDITIONS
-                    </button>
-                    <button className="nav-button" onClick={() => scrollToSection('venue')}>
-                        VENUE
-                    </button> */}
                 </div>
             </div>
         </nav>
