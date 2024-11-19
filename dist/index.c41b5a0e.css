@@ -21,7 +21,7 @@
 @media (width <= 768px) {
   .buttonn, .nav-button, .homepage-button {
     padding: 1vh 3vw;
-    font-size: .65rem;
+    font-size: .47rem;
   }
 }
 
