@@ -2997,17 +2997,17 @@ const App = ()=>{
                 lineNumber: 19,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _scheduleDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _speakerDefault.default), {}, void 0, false, {
                 fileName: "components/app.js",
                 lineNumber: 20,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _speakerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _organisersDefault.default), {}, void 0, false, {
                 fileName: "components/app.js",
                 lineNumber: 21,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _organisersDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _scheduleDefault.default), {}, void 0, false, {
                 fileName: "components/app.js",
                 lineNumber: 22,
                 columnNumber: 9
@@ -27634,7 +27634,7 @@ const WorkshopDetails = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     className: "homepage_text",
-                    children: "Registration Deadline: 24th November 2024"
+                    children: "Registration Deadline: 28th November 2024"
                 }, void 0, false, {
                     fileName: "components/homepage_text.js",
                     lineNumber: 17,
@@ -27775,8 +27775,8 @@ const NavBar = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         className: "nav-button",
-                        onClick: ()=>scrollToSection("schedule"),
-                        children: "SCHEDULE"
+                        onClick: ()=>scrollToSection("location-embed"),
+                        children: "LOCATION"
                     }, void 0, false, {
                         fileName: "components/navbar.js",
                         lineNumber: 20,
@@ -27803,7 +27803,7 @@ const NavBar = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         className: "nav-button",
                         onClick: ()=>scrollToSection("organiser"),
-                        children: "ORGANISER"
+                        children: "ORGANISERS"
                     }, void 0, false, {
                         fileName: "components/navbar.js",
                         lineNumber: 29,
@@ -28012,7 +28012,7 @@ const WorkshopRegistration = ()=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://www.google.com/search?q=google&rlz=1C1CHBF_en__1051__1051&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIYCAEQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMgwIAhAjGCcYgAQYigUyDAgDECMYJxiABBiKBTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEIMTQ1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+                                href: "https://in.explara.com/e/research-opportunities-in-computer-science-at-model-institute-of-engineering-and-technology-miet--jammu",
                                 style: {
                                     textDecoration: "none"
                                 },
@@ -28022,7 +28022,7 @@ const WorkshopRegistration = ()=>{
                                 }, void 0, false, {
                                     fileName: "components/registration.js",
                                     lineNumber: 16,
-                                    columnNumber: 3
+                                    columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "components/registration.js",
@@ -28034,7 +28034,7 @@ const WorkshopRegistration = ()=>{
                                     fontSize: "1.05rem",
                                     marginTop: "1rem"
                                 },
-                                children: "\xbb Last Day to apply is 24th November 2024."
+                                children: "\xbb Last Day to apply is 28th November 2024."
                             }, void 0, false, {
                                 fileName: "components/registration.js",
                                 lineNumber: 20,
@@ -28044,7 +28044,7 @@ const WorkshopRegistration = ()=>{
                                 style: {
                                     fontSize: "1.05rem"
                                 },
-                                children: "\xbb Registration fee is Rs. 250/- + GST"
+                                children: "\xbb Registration fee is Rs. 200/- + GST"
                             }, void 0, false, {
                                 fileName: "components/registration.js",
                                 lineNumber: 21,
@@ -28086,9 +28086,20 @@ const WorkshopRegistration = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "components/registration.js",
                 lineNumber: 32,
-                columnNumber: 13
+                columnNumber: 12
             }, undefined),
-            " "
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    width: "100%",
+                    height: "5px",
+                    backgroundColor: "white",
+                    marginTop: "1rem"
+                }
+            }, void 0, false, {
+                fileName: "components/registration.js",
+                lineNumber: 33,
+                columnNumber: 7
+            }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/registration.js",
@@ -28151,124 +28162,132 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$3153.prelude(module);
 
 try {
+// import React from 'react';
+// const Schedule = () => {
+//   const leftColumn = [
+//     "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12"
+//   ];
+//   const middleColumn = [
+//     "Item 13", "Item 14", "Item 15", "Item 16", "Item 17", "Item 18", "Item 19", "Item 20", "Item 21", "Item 22", "Item 23", "Item 24"
+//   ];
+//   const rightColumn = [
+//     "Item 25", "Item 26", "Item 27", "Item 28", "Item 29", "Item 30", "Item 31", "Item 32", "Item 33", "Item 34", "Item 35", "Item 36"
+//   ];
+//   return (
+//     <main id='schedule' className="schedule-main" >
+//       <h2 className="schedule-heading">Schedule</h2>
+//       <div className="grid-container">
+//         <div className="grid-column left-column">
+//           {leftColumn.map((item, index) => (
+//             <div key={index} className="grid-item">{item}</div>
+//           ))}
+//         </div>
+//         <div className="grid-column middle-column">
+//           {middleColumn.map((item, index) => (
+//             <div key={index} className="grid-item">{item}</div>
+//           ))}
+//         </div>
+//         <div className="grid-column right-column">
+//           {rightColumn.map((item, index) => (
+//             <div key={index} className="grid-item">{item}</div>
+//           ))}
+//         </div>
+//       </div>
+//     </main>
+//   );
+// };
+// export default Schedule;
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Schedule = ()=>{
-    const leftColumn = [
-        "Item 1",
-        "Item 2",
-        "Item 3",
-        "Item 4",
-        "Item 5",
-        "Item 6",
-        "Item 7",
-        "Item 8",
-        "Item 9",
-        "Item 10",
-        "Item 11",
-        "Item 12"
-    ];
-    const middleColumn = [
-        "Item 13",
-        "Item 14",
-        "Item 15",
-        "Item 16",
-        "Item 17",
-        "Item 18",
-        "Item 19",
-        "Item 20",
-        "Item 21",
-        "Item 22",
-        "Item 23",
-        "Item 24"
-    ];
-    const rightColumn = [
-        "Item 25",
-        "Item 26",
-        "Item 27",
-        "Item 28",
-        "Item 29",
-        "Item 30",
-        "Item 31",
-        "Item 32",
-        "Item 33",
-        "Item 34",
-        "Item 35",
-        "Item 36"
-    ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        id: "schedule",
-        className: "schedule-main",
+        id: "location-embed",
+        className: "location-embed-container",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "schedule-heading",
-                children: "Schedule"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "components/schedule.js",
-                lineNumber: 16,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 49,
+                columnNumber: 12
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "grid-container",
+                className: "venue-container",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "grid-column left-column",
-                        children: leftColumn.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "grid-item",
-                                children: item
-                            }, index, false, {
-                                fileName: "components/schedule.js",
-                                lineNumber: 21,
-                                columnNumber: 13
-                            }, undefined))
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Venue"
                     }, void 0, false, {
                         fileName: "components/schedule.js",
-                        lineNumber: 19,
-                        columnNumber: 9
+                        lineNumber: 51,
+                        columnNumber: 7
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "grid-column middle-column",
-                        children: middleColumn.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "grid-item",
-                                children: item
-                            }, index, false, {
-                                fileName: "components/schedule.js",
-                                lineNumber: 27,
-                                columnNumber: 13
-                            }, undefined))
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Auditorium, MIET Kot Bhalwal, Jammu, Jammu and Kashmir 181122"
                     }, void 0, false, {
                         fileName: "components/schedule.js",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "grid-column right-column",
-                        children: rightColumn.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "grid-item",
-                                children: item
-                            }, index, false, {
-                                fileName: "components/schedule.js",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
-                        fileName: "components/schedule.js",
-                        lineNumber: 31,
-                        columnNumber: 9
+                        lineNumber: 52,
+                        columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/schedule.js",
-                lineNumber: 18,
+                lineNumber: 50,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 53,
+                columnNumber: 11
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 53,
+                columnNumber: 16
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "Our Location"
+            }, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 54,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "iframe-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.428151746225!2d74.8165221!3d32.8122676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e87ad2533b009%3A0x77069456c55e9f86!2sModel+Institute+of+Engineering+and+Technology+(MIET)%2C+Jammu!5e0!3m2!1sen!2sin!4v1698637423384!5m2!1sen!2sin",
+                    title: "Model Institute of Engineering and Technology",
+                    width: "80%",
+                    height: "500px",
+                    style: {
+                        border: "0"
+                    },
+                    allowFullScreen: "",
+                    loading: "lazy"
+                }, void 0, false, {
+                    fileName: "components/schedule.js",
+                    lineNumber: 57,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/schedule.js",
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/schedule.js",
-        lineNumber: 15,
+        lineNumber: 47,
         columnNumber: 5
     }, undefined);
 };
