@@ -3036,7 +3036,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./footer":"4psvf","./homepage":"brwEJ","./homepage_text":"9JbD1","./navbar":"3CymZ","./organisers":"hoUKa","./registration":"grhyY","./schedule":"3KSBL","./speaker":"lmNGN","./styles.css":"9kxJ8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./homepage":"brwEJ","./homepage_text":"9JbD1","./navbar":"3CymZ","./organisers":"hoUKa","./registration":"grhyY","./schedule":"3KSBL","./speaker":"lmNGN","./styles.css":"9kxJ8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./footer":"4psvf"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27279,45 +27279,85 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"4psvf":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a8dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"brwEJ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f99e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a8dc.prelude(module);
+$parcel$ReactRefreshHelpers$f99e.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function Footer() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        className: "footer",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-            children: "Copyright \xa9 2024 MIET Jammu. All Rights Reserved."
+const HomePage = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+        id: "home",
+        className: "homepage",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "homepage-content",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "homepage-text",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 8,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 8,
+                        columnNumber: 26
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 8,
+                        columnNumber: 31
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "ACM India & MIET Jammu Workshop on Research Opportunities in Computer Science"
+                    }, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 9,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 13,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/homepage.js",
+                        lineNumber: 17,
+                        columnNumber: 21
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/homepage.js",
+                lineNumber: 7,
+                columnNumber: 17
+            }, undefined)
         }, void 0, false, {
-            fileName: "components/footer.js",
+            fileName: "components/homepage.js",
             lineNumber: 6,
-            columnNumber: 7
-        }, this)
+            columnNumber: 13
+        }, undefined)
     }, void 0, false, {
-        fileName: "components/footer.js",
+        fileName: "components/homepage.js",
         lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Footer;
-exports.default = Footer;
+        columnNumber: 9
+    }, undefined);
+};
+_c = HomePage;
+exports.default = HomePage;
 var _c;
-$RefreshReg$(_c, "Footer");
+$RefreshReg$(_c, "HomePage");
 
-  $parcel$ReactRefreshHelpers$a8dc.postlude(module);
+  $parcel$ReactRefreshHelpers$f99e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27485,85 +27525,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"brwEJ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f99e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f99e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const HomePage = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        id: "home",
-        className: "homepage",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "homepage-content",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "homepage-text",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 8,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 8,
-                        columnNumber: 26
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 8,
-                        columnNumber: 31
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "ACM India & MIET Jammu Workshop on Research Opportunities in Computer Science"
-                    }, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 9,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 13,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/homepage.js",
-                        lineNumber: 17,
-                        columnNumber: 21
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/homepage.js",
-                lineNumber: 7,
-                columnNumber: 17
-            }, undefined)
-        }, void 0, false, {
-            fileName: "components/homepage.js",
-            lineNumber: 6,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/homepage.js",
-        lineNumber: 5,
-        columnNumber: 9
-    }, undefined);
-};
-_c = HomePage;
-exports.default = HomePage;
-var _c;
-$RefreshReg$(_c, "HomePage");
-
-  $parcel$ReactRefreshHelpers$f99e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9JbD1":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"9JbD1":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5f11 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28013,6 +27975,8 @@ const WorkshopRegistration = ()=>{
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://in.explara.com/e/research-opportunities-in-computer-science-at-model-institute-of-engineering-and-technology-miet--jammu",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
                                 style: {
                                     textDecoration: "none"
                                 },
@@ -28021,8 +27985,8 @@ const WorkshopRegistration = ()=>{
                                     children: "Register Now"
                                 }, void 0, false, {
                                     fileName: "components/registration.js",
-                                    lineNumber: 16,
-                                    columnNumber: 13
+                                    lineNumber: 21,
+                                    columnNumber: 3
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "components/registration.js",
@@ -28037,7 +28001,7 @@ const WorkshopRegistration = ()=>{
                                 children: "\xbb Last Day to apply is 28th November 2024."
                             }, void 0, false, {
                                 fileName: "components/registration.js",
-                                lineNumber: 20,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28047,7 +28011,7 @@ const WorkshopRegistration = ()=>{
                                 children: "\xbb Registration fee is Rs. 200/- + GST"
                             }, void 0, false, {
                                 fileName: "components/registration.js",
-                                lineNumber: 21,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -28064,12 +28028,12 @@ const WorkshopRegistration = ()=>{
                             className: "registration_image"
                         }, void 0, false, {
                             fileName: "components/registration.js",
-                            lineNumber: 25,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/registration.js",
-                        lineNumber: 24,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28080,12 +28044,12 @@ const WorkshopRegistration = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "components/registration.js",
-                lineNumber: 32,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "components/registration.js",
-                lineNumber: 32,
+                lineNumber: 37,
                 columnNumber: 12
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28097,7 +28061,7 @@ const WorkshopRegistration = ()=>{
                 }
             }, void 0, false, {
                 fileName: "components/registration.js",
-                lineNumber: 33,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28455,44 +28419,6 @@ function Speak() {
                         fileName: "components/speaker.js",
                         lineNumber: 22,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        className: "speaker-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "https://media.licdn.com/dms/image/v2/C5603AQFxozsUtOOCSQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517743945396?e=1736985600&v=beta&t=Ta-tmSGHQ4XhTlWk4njEvVTpVbln8VHeKXuTDIm1sE8",
-                                alt: "Speaker 4"
-                            }, void 0, false, {
-                                fileName: "components/speaker.js",
-                                lineNumber: 29,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Dr. Sourangshu Bhattacharya"
-                            }, void 0, false, {
-                                fileName: "components/speaker.js",
-                                lineNumber: 30,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Associate Professor (CSE)"
-                            }, void 0, false, {
-                                fileName: "components/speaker.js",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "IIT Kharagpur"
-                            }, void 0, false, {
-                                fileName: "components/speaker.js",
-                                lineNumber: 32,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/speaker.js",
-                        lineNumber: 28,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -28517,6 +28443,44 @@ $RefreshReg$(_c, "Speak");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9kxJ8":[function() {},{}]},["5qZOx","1xC6H","gsjHa"], "gsjHa", "parcelRequire7f7a")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9kxJ8":[function() {},{}],"4psvf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a8dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a8dc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        className: "footer",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            children: "Copyright \xa9 2024 MIET Jammu. All Rights Reserved."
+        }, void 0, false, {
+            fileName: "components/footer.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/footer.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$a8dc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["5qZOx","1xC6H","gsjHa"], "gsjHa", "parcelRequire7f7a")
 
 //# sourceMappingURL=index.098ac56b.js.map
