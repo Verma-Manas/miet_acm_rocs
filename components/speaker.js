@@ -25,12 +25,12 @@ function Speak() {
           <p>Associate Professor (CSE, Math)</p>
           <p>IIIT Hyderabad</p>
         </section>
-        <section className="speaker-item">
+        {/* <section className="speaker-item">
           <img src="https://media.licdn.com/dms/image/v2/C5603AQFxozsUtOOCSQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517743945396?e=1736985600&v=beta&t=Ta-tmSGHQ4XhTlWk4njEvVTpVbln8VHeKXuTDIm1sE8" alt="Speaker 4" />
           <p>Dr. Sourangshu Bhattacharya</p>
           <p>Associate Professor (CSE)</p>
           <p>IIT Kharagpur</p>
-        </section>
+        </section> */}
       </section>
     </section>
   );
