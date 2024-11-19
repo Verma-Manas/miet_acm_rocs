@@ -31,7 +31,7 @@
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
   .buttonn, .nav-button, .homepage-button {
-    font-size: 0.65rem; /* Smaller font size */
+    font-size: 0.47rem; /* Smaller font size */
     padding: 1vh 3vw; /* Adjust padding for smaller screens */
   }
 }
