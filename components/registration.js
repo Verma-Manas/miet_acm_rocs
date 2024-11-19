@@ -12,7 +12,7 @@ const WorkshopRegistration = () => {
             We cordially invite undergraduate and postgraduate students from Computer Science and Mathematics to apply for participation in the workshop.
           </p>
           <br />
-          <a href="https://www.google.com/search?q=google&rlz=1C1CHBF_en__1051__1051&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIYCAEQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMgwIAhAjGCcYgAQYigUyDAgDECMYJxiABBiKBTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEIMTQ1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" style={{ textDecoration: "none" }}>
+          <a href="https://in.explara.com/e/research-opportunities-in-computer-science-at-model-institute-of-engineering-and-technology-miet--jammu" style={{ textDecoration: "none" }}>
             <button className="register-button">
               Register Now
             </button>
